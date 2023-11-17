@@ -1,28 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
 
-:root{
+:root {
     --primary-color: #039fbe;
-    --dark-blue:#020347;
+    --off-white:#F3F4F6;
+    --dark-blue: #020347;
 }
 
-body{
+body {
     font-family: 'Comfortaa', sans-serif;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
 /* container */
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 
     /* padding: 0rem 1rem; */
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -30,19 +31,19 @@ hr{
 /* links */
 
 
-.link{
+.link {
 
     text-decoration: none;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: .5rem;
-    color:white
+    color: white
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -51,39 +52,41 @@ hr{
 /* lists */
 
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding-left: 1rem;
 }
 
 /* navigation */
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1.2rem;
 
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bolder;
     font-size: 1.2rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .link{
-    color:white;
-       
+
+.navigation .link {
+    color: white;
+
 }
 
-.navigation .link-active{
-    
+.navigation .link-active {
+
     /* font-size: large; */
     font-weight: bolder;
 }
@@ -91,20 +94,35 @@ hr{
 
 /* header */
 
-.hero{
+.hero {
     padding: 2rem;
 }
-.hero .hero-img{
+
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     color: var(--dark-blue);
     padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+     padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+  
+}
+
+.ow{
+    background-color: var(--off-white);
 }
