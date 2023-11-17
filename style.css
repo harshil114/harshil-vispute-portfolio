@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #039fbe;
+    --dark-blue:#020347;
 }
 
 body{
@@ -56,4 +57,54 @@ hr{
 .list-item-inline{
     display: inline;
     padding-left: 1rem;
+}
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.2rem;
+
+}
+
+.navigation .nav-brand{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color:white;
+       
+}
+
+.navigation .link-active{
+    
+    /* font-size: large; */
+    font-weight: bolder;
+}
+
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-blue);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
